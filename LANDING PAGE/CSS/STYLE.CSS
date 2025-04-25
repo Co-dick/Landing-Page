@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Mooli&family=Satisfy&family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&family=Ubuntu:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.bg-color {
+    background-color: red;
+}
+
+.container {
+    max-width: 80vw;
+}
+
+.navbar li {
+    list-style: none;
+    margin: 0 13px;
+}
+
+
+nav {
+    height: 49px;
+}
+
+.heading {
+    font-weight: bolder;
+    /* font-family: 'Satisfy', cursive;
+    font-family: 'Ubuntu', sans-serif;*/
+    font-family: 'mooli';
+    color: rgb(69, 67, 209);
+    font-size: 1.3rem;
+}
+
+.section1 {
+    max-height: 100vh;
+}
+
+.penpic {
+    width: 70px;
+}
+
+.section1 h1 {
+    font-size: 2rem;
+
+}
+
+#sx1 p {
+    padding: 6px;
+}
+
+.section2 h1 {
+    font-size: 2rem;
+}
+
+.section2 p {
+    padding: 0px 31px;
+    text-align: center;
+}
+
+.section2 {
+    padding: 0 3px;
+    border: 2px black;
+    max-width: 100vw;
+    overflow-x: hidden;
+    min-height: 100vh;
+    background-color: rgb(197, 223, 245);
+}
+
+.box {
+    margin: 3px 3px;
+    padding: 9px 3px;
+    min-width: 16vw;
+    border: 2px solid steelblue;
+    overflow: hidden;
+    background-color: aliceblue;
+
+}
+
+.box h2 {
+    padding-top:3px;
+    margin-top: 3px;
+}
+
+.box ul {
+    list-style: none;
+    justify-items: baseline;    
+}
+.box ul li{
+    margin: 3px;
+    padding: 3px;
+}
+
+.boxes {
+    display:flex;
+    flex-wrap:wrap;
+    gap: 0;
+    padding: 3px;
+}
+
+.bg-colorfooter {
+    color: black;
+    height: 39px;
+    background-color: rgb(13, 50, 216);
+    text-align: center;
+    border: 2px solid black;
+}
+#box4{
+    max-width: 8px;
+}
+#box7{
+    max-width: 8px;
+}
